@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monica’s Handmade Art</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #ffd6cc;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .gallery-item {
+            text-align: center;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 6px;
+        }
+        footer {
+            background: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Monica’s Handmade Art</h1>
+        <p>Colorful, cozy, and made with love 🎨🧶</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#blog">Blog</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome!</h2>
+        <p>Hi, I'm Monica! I create handmade crochet and macramé pieces that are full of personality and heart. Explore my work below!</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="bunny.jpeg" alt="Handmade Bunny">
+                <p>Handmade Crochet Bunny with Carrots</p>
+            </div>
+            <div class="gallery-item">
+                <img src="heart.jpeg" alt="Tiny Heart">
+                <p>Tiny Crochet Heart – Made with Love</p>
+            </div>
+            <div class="gallery-item">
+                <img src="macrame.jpeg" alt="Macrame Coasters">
+                <p>Macramé Coasters on Natural Wood</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Coming soon: tips, behind-the-scenes, and stories behind each handmade creation!</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Monica’s Handmade Art</p>
+    </footer>
+</body>
+</html>
